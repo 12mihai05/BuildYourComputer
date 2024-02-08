@@ -1,0 +1,101 @@
+
+main{
+    max-width: 1500px;
+    width: 95%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:auto;
+}
+
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+main .wrong{
+    color: white;
+    text-align: center;
+    margin-top: 7%;
+    margin-right: 15%;
+    margin-left: 38%;
+    font-size: 100px;
+    color: red;
+}
+
+main .try{
+    color: white;
+    text-align: center;
+    margin-top: 7%;
+    margin-right: 15%;
+    margin-left: 40%;
+    font-size: 60px;
+    color: red;
+    text-decoration: none;
+    border: solid red;
+    padding: 10px;
+}
+
+main .try:hover{
+    border-color: blue;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+
+.welcome{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+main .pass{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 37%;
+    width: 420px;
+}
+
+main .pass .btn{
+    margin-top: 40px;
+}
+
+main .Q{
+    color: white;
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+main .check{
+    color: white;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+.checkbtn{
+    margin-top: 80px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: inherit;
+}
+
+.buton{
+    height: 60px;
+    width: 150px;
+    font-weight: bold;
+    
+}
+

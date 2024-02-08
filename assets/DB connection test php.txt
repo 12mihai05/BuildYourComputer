@@ -1,0 +1,5 @@
+if($conn->connect_error){
+        die("connection lost: ".$conn->connect_error);
+    }else{
+        echo "Connected succesfuly";
+    }

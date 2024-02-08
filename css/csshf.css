@@ -1,0 +1,126 @@
+.top{
+    background-color: cadetblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+sup{
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 10px;
+
+}
+
+.logo{
+    width: 100px;
+    height: 65px;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding-top: 12px;
+    padding-left: 90px;
+}
+
+.navigation li{
+    display: inline-block;
+    margin: 0 10px;
+    padding-right: 60px;
+}
+
+.navigation a{
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    color: orangered;
+}
+.top .social{
+    list-style-type: none;
+    text-align: right;
+    padding-top: 12px;
+}
+
+.top .social li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.top .social li a{
+    text-decoration: none;
+}
+
+.top .social li sup{
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    font-weight: bold;
+}
+
+.cart img{
+    width: 70px;
+    height: 45px;
+}
+
+.tail{
+    background-color: cadetblue;
+}
+
+.bottom{
+    background-color: whitesmoke;
+}
+
+.tail{
+    padding-top: 30px;
+}
+
+.tail ul{
+    list-style: none;
+}
+
+.tail li{
+    color: white;
+    text-decoration: none;
+}
+
+.tail p{
+    color: orangered;
+}
+
+.tail .social{
+    padding-top: 12px;
+}
+
+.tail .social li{
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+.tail .social li img{
+    width: 30px;
+}
+
+
+.bottom{
+    color: gray;
+    padding-top: 10px;
+}
+
+.bottom ul{
+    list-style: none;
+}
+
+.bottom li{
+    color: cadetblue;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+.bottom p{
+    margin-bottom: 0;
+}
