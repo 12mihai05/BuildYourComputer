@@ -10,6 +10,7 @@
     />
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/cssproducts.css" />
+    <link rel="stylesheet" href="css/bootstrap.css">
   </head>
   <body>
     <?php
@@ -91,10 +92,16 @@
         }
       }
       ?>
-      <footer><?php
-      include "footer.php";
-      ?></footer>
-      </main>
+       
+    </main>
+         
+    <footer>
+        <?php
+            require "footer.php";
+        ?>
+    </footer>
+         
+      
 
   </body>
 </html>
